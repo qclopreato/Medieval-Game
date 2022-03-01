@@ -11,15 +11,16 @@
     <header></header>
     <main>
         <div class="scores">
-            <p class="humanP">Human:<string></string></p>
-            <p class="computerP">Computer:<string></string></p>
+            <span id="humanSpan">Human </span>
+            <span id="computerSpan">Computer</span>
         </div>
         <div class="cardDiv">
-            <img src="pix/king.jpg" class="king" alt="King">
-            <img src="pix/commoner.png" class="commoner" alt="Commoner">
-            <img src="pix/slave.jpg" class="slave" alt="Slave">
+            <img src="pix/king.jpg" class="king" alt="King" onclick="battleKing()">
+            <img src="pix/commoner.png" class="commoner" alt="Commoner" onclick="battleCommoner()">
+            <img src="pix/slave.jpg" class="slave" alt="Slave" onclick="battleSlave()">
         </div>
     </main>
     <footer></footer>
+    <script src="js/app.js"></script>
 </body>
 </html>
